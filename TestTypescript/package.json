@@ -1,0 +1,22 @@
+{
+  "name": "testtypescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "../dist/app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc --watch",
+    "tsnd": "tsnd --respawn ./src/app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^16.9.2",
+    "nodemon": "^2.0.12",
+    "reflect-metadata": "^0.1.13",
+    "ts-node": "^9.1.1",
+    "ts-node-dev": "^1.1.8"
+  }
+}

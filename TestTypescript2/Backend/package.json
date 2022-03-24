@@ -1,0 +1,20 @@
+{
+  "name": "testtypescript2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/Decorator01/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"ts-node ./src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^16.9.2",
+    "nodemon": "^2.0.12",
+    "reflect-metadata": "^0.1.13",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  }
+}
